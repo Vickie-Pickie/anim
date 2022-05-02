@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: white;
+}
+button {
+  background: #0069d9;
+  border: 0;
+  color: #fff;
+  border-radius: 4px;
+  padding: 4px 8px;
+  cursor: pointer;
+  transition: all .2s ease;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  box-shadow: 0 0 0 3px #92c8fd;
+}
+.block {
+  padding: 10px;
+  border: 1px solid #e8e8e8;
+  border-radius: 2px;
+  width: 600px;
+}
+
+
+.collapsing {
+  position: relative;
+  height: 0;
+  transition: height .5s ease-in;
+  overflow: hidden;
+}
+
+.collapsed {
+  display: none;
+}
